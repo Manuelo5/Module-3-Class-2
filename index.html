@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            border:2px solid blue
+        }
+        input[type="password"]{
+            border:2px dashed blue
+        }
+        ul > li{
+            color: green;
+        }
+        h1 + p + p{
+            color: purple;
+        }
+        a:hover{
+            color: orangered;
+        }
+        li:nth-child(4){
+            color: blueviolet;
+        }
+        div:not(#b){
+            border: 2px dashed red;
+        }
+        #c::before{
+            content:"Long";
+            color: brown;
+        }
+        #c::after{
+            content:"here";
+            color: aqua;
+        }
+        #d::first-letter{
+            font-size: 200%;
+            color: olive;
+            
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter name"><br><br>
+    <input type="password" placeholder="Enter password"><br>
+    <ul>
+        <li>Home</li>
+        <li>School</li>
+    </ul>
+    <h1>Welcome Back</h1>
+    <p>We have been waiting for you</p>
+    <p>Now you are here to be accepted</p>
+    <a href="#">Timeline</a>
+    <ul>
+        <li>Strong</li>
+        <li>Stronger</li>
+        <li>Strongest</li>
+        <li>Extra strong</li>
+    </ul>
+    <div id="a">Good</div>
+    <div id="b">Better</div>
+    <p id="c">long lie here</p>
+    <p id="d">I need to use the bathroom</p>
+</body>
+</html>
